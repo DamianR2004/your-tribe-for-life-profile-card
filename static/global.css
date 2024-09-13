@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: "Orbitron", sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    background-image: var(--bg-image);
+}
+
+
+:root {
+    --background-color: #e77d11;
+    --text-color: #152238;
+    --border-color: black;
+    --bg-image: url('/images/vecteezy_mars-landscape-alien-planet-martian-background_16962802.jpg');
+}
+
+html[data-theme='light'] {
+    --background-color: #e77d11;
+    --text-color: #152238;
+    --border-color: black;
+    --bg-image: url('/images/vecteezy_mars-landscape-alien-planet-martian-background_16962802.jpg');
+
+}
+
+html[data-theme='dark'] {
+    --background-color: #09092b;
+    --text-color: #9ccddc;
+    --border-color: #9ccddc;
+    --bg-image: url('/images/fr9f083mqprb1 (2) (1).jpg');
+}
