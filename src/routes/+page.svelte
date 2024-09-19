@@ -425,7 +425,7 @@
 </div>
 
 <div class="avatar">
-    <img src="{data.person.avatar}" alt="Damian"/>
+    <img src="/images/144007686.jpeg" width="225" height="225" alt=""/>
 </div>
 
 
@@ -522,7 +522,6 @@ button{
 }
 
 img{
-    width: 14.06em;
     border-radius: 15px;
     z-index: 10;
 }
@@ -575,12 +574,10 @@ p{
     0%{
         left: 0%;
         z-index:1;
-        scale: 0.7;
-        transform:translate(-100%, -20%);
+        transform:translate(-100%, -20%) scale(0.7);
     }
     25%{
-        scale: 0.3;
-        transform:translate(-100%, -20%);
+        transform:translate(-100%, -20%) scale(0.3);
         z-index: -1;
     }
     50%{
@@ -591,15 +588,14 @@ p{
         z-index: 11;
     }
     75%{
-        scale:1;
         z-index: 11;
+        transform: scale(.9);
     }
 
     100%{
         left:0%;
         z-index: 11;
-        scale: 0.7;
-        transform:translate(-100%, -20%);
+        transform:translate(-100%, -20%) scale(0.7);
     }
 }
 
@@ -607,12 +603,10 @@ p{
     0%{
         left: 0%;
         z-index:2;
-        scale: 0.7;
-        transform:translate(-100%, -20%);
+        transform: translate(-100%, -20%) scale(0.7);
     }
     25%{
-        scale: 0.3;
-        transform:translate(-60%, -20%);
+        transform:translate(-60%, -20%) scale(0.3);
         z-index: -1;
     }
     50%{
@@ -622,28 +616,25 @@ p{
         z-index: 11;
     }
     75%{
-        scale:1;
+        transform: scale(.9);
         z-index: 11;
     }
 
     100%{
         left:0%;
         z-index: 11;
-        scale: 0.72;
-        transform:translate(-100%, -20%);
+        transform:translate(-100%, -20%) scale(0.72);
     }
 }
 
 @media(hover: hover) and (pointer: fine) {
     .social-buttons svg:hover {
-        scale: 1.1;
+        transform: scale(1.1);
         transition: .25s;
-        pointer: cursor;
     }
     button:hover{
-    scale: 1.05;
+    transform: scale(1.05);
     transition: .25s;
-    pointer: cursor;
 }
 }
 </style>
