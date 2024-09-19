@@ -617,7 +617,7 @@ p{
         left: 100%;
     }
     50.001%{
-        z-index: 11;
+        z-index: -1;
     }
     75%{
         transform: scale(.9);
