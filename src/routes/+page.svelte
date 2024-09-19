@@ -427,9 +427,9 @@
 <div class="avatar">
     <picture>
         <source srcset="/images/144007686.avif" type="image/avif" alt="" width="200" height="200" />
-        <source srcset="/images/144007686.wepb" type="image/webp" alt="" width="200" height="200"  />
-        <img src="/images/144007686.jpeg" alt="" width="200" height="200"  />
-      </picture>
+        <source srcset="/images/144007686.webp" type="image/webp" alt="" width="200" height="200" />
+        <img src="/images/144007686.jpeg" alt="" width="200" height="200" loading="lazy" />
+    </picture>
 </div>
 
 
