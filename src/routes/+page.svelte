@@ -553,19 +553,15 @@ p{
     top: 15%;
     height: 300px;
     width: 300px;
-    border-radius: 100%;
-    display: flex;
     animation: orbit 8s infinite ease-in-out;
 }
 
 .planet-1{
     position: absolute;
-    top: 15%;
+    top: 20%;
     height: 300px;
     width: 300px;
-    border-radius: 100%;
-    display: flex;
-    animation: planet-1 4s infinite ease-in-out
+    animation: planet-1 7s infinite ease-in-out;
 }
 
 .social-buttons{
@@ -585,6 +581,7 @@ p{
     25%{
         scale: 0.3;
         transform:translate(-100%, -20%);
+        z-index: -1;
     }
     50%{
         left: 100%;
@@ -601,7 +598,7 @@ p{
     100%{
         left:0%;
         z-index: 11;
-        scale: 0.72;
+        scale: 0.7;
         transform:translate(-100%, -20%);
     }
 }
@@ -609,13 +606,14 @@ p{
 @keyframes planet-1{
     0%{
         left: 0%;
-        z-index:1;
+        z-index:2;
         scale: 0.7;
         transform:translate(-100%, -20%);
     }
     25%{
         scale: 0.3;
-        transform:translate(-100%, -20%);
+        transform:translate(-60%, -20%);
+        z-index: -1;
     }
     50%{
         left: 100%;
@@ -640,10 +638,12 @@ p{
     .social-buttons svg:hover {
         scale: 1.1;
         transition: .25s;
+        pointer: cursor;
     }
     button:hover{
     scale: 1.05;
     transition: .25s;
+    pointer: cursor;
 }
 }
 </style>
