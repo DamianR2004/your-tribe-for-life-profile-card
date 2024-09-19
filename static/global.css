@@ -25,14 +25,14 @@ body{
 :root {
     --background-color: #e77d11;
     --text-color: #152238;
-    --border-color: black;
+    --border-color: #152238;
     --bg-image: url('/images/vecteezy_mars-landscape-alien-planet-martian-background_16962802.jpg');
 }
 
 html[data-theme='light'] {
     --background-color: #e77d11;
     --text-color: #152238;
-    --border-color: black;
+    --border-color: #152238;
     --bg-image: url('/images/vecteezy_mars-landscape-alien-planet-martian-background_16962802.jpg');
 
 }

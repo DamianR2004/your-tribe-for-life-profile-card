@@ -15,7 +15,6 @@
         const lightmodeButton = document.getElementById('lightmode');
         const darkmodeButton = document.getElementById('darkmode');
 
-        // Add event listeners to buttons
         if (lightmodeButton) {
             lightmodeButton.addEventListener('click', enableLightMode);
         }
