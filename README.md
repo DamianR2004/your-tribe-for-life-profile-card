@@ -14,7 +14,7 @@ Profielkaartje Damian Romeijn / September 2024
 
 ## Beschrijving
 
-Dit is een vernieuwde variant van een profielkaartje, deze keer is het met gebruik van SvelteKit gemaakt. Het uitgekozen thema is een mix tussen tekeningen en de ruimte. De combinatie van deze 2 leveren dit design en product op. In het kaartje staat verschillende data zoals een naam, bio en een github-handle. Deze zijn uit een aparte CMS gehaald. 
+Dit is een vernieuwde variant van een profielkaartje, deze keer is het met gebruik van SvelteKit gemaakt. Het uitgekozen thema is een mix tussen tekeningen en de ruimte. De combinatie van deze 2 leveren dit design en product op, met een kleine referentie naar Rainbow Road van Mario Kart. In het kaartje staat verschillende data zoals een naam, bio en een github-handle. Deze zijn uit een aparte CMS gehaald. 
 
 
 
